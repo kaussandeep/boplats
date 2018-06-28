@@ -1,0 +1,22 @@
+{
+  "name": "boplats",
+  "version": "1.0.0",
+  "description": "boplatsApartments",
+  "main": "conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaussandeep/boplats.git"
+  },
+  "author": "sandeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaussandeep/boplats/issues"
+  },
+  "homepage": "https://github.com/kaussandeep/boplats#readme"
+}
