@@ -10,13 +10,12 @@ describe('This is first test', () => {
       
       await page.get('https://nya.boplats.se/');
       $('#login').click();
+
       browser.wait(EC.visibilityOf($('#login-frame', 5000, 'failed')));
       console.log('done');
-      $('. input').$('#username').sendKeys("abc");
-      var uname = $('[name="login_button"]');
-      //expect(uname.getText()).toBe('Log in');
-      //element.sendKeys("abcdef");
-     //browser.wait(EC.visibilityOf($('#username', 5, 'failed')));
+
+      await browser.wait(EC.visibilityOf(element(By.id("username"), 5, "failed")));
+      element(By.id('username')).click();
      //$('#username').focus();
      
 
